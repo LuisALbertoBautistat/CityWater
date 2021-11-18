@@ -19,7 +19,7 @@ class Register : AppCompatActivity() {
         setContentView(binding.root)
         viewModel = ViewModelProvider(this).get(ViewModel::class.java)
         binding.registerGo.setOnClickListener() {
-            if(binding.pass.text != null && binding.email.text != null && binding.name != null) {
+            if(binding.pass.text.toString().isNotEmpty() && binding.email.text.toString().isNotEmpty()  && binding.name.text.toString().isNotEmpty()) {
                 if (binding.pass.text.toString() == binding.confirm.text.toString()) {
                     user = User(
                         binding.name.text.toString(),
@@ -33,6 +33,7 @@ class Register : AppCompatActivity() {
                             Intent(
                                 this, Home::class.java
                             )
+
                         )
                     }
                 }
