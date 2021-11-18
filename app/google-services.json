@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310179425531",
+    "project_id": "pruebacitywater-1f4a9",
+    "storage_bucket": "pruebacitywater-1f4a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310179425531:android:61ef94a4de33d73090945e",
+        "android_client_info": {
+          "package_name": "com.example.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310179425531-7gmlvl5g7jc6ild1munekq18heusbg33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEvgF30mnhfVFjJTG7InapELpzfHjk1hE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310179425531-7gmlvl5g7jc6ild1munekq18heusbg33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
