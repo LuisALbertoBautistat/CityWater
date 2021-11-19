@@ -54,16 +54,5 @@
         android:text="Enviar comentario"
         android:textAllCaps="false"
         />
-    <Button
-        android:id="@+id/prueba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sendTo"
-        android:text="Recibir Token"
-        android:textAllCaps="false"
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

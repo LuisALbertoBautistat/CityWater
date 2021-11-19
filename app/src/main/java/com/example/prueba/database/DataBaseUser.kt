@@ -10,11 +10,14 @@ import com.example.prueba.datamodel.User
 @Database(entities = [User::class], version = 1)
 
 abstract class DataBaseUser : RoomDatabase() {
+    //Aqui creamos la funcion abstracta userDao que sera de tipo  DaoUser
     abstract fun userDao() : DaoUser
+
     companion object{
         private var INSTANCE: DataBaseUser? = null
         private const val DB_NAME = "user.db"
 
+        //Aqui realizamos la instancia de la base de datos, en caso de no existir una base de datos se crea uno con el nombre user.db
         fun getDatabase(context: Context) : DataBaseUser {
             if (INSTANCE == null){
                 synchronized(DataBaseUser::class.java){
@@ -23,6 +26,7 @@ abstract class DataBaseUser : RoomDatabase() {
                     }
                 }
             }
+            ///Retornamos la instancia a nuestra base de datos(conexion)
             return  INSTANCE!!
         }
     }

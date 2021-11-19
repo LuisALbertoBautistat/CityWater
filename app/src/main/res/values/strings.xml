@@ -8,4 +8,8 @@
     <!-- [END fcm_default_icon_string] -->
     <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
     <string name="fcm_message">FCM Message</string>
+    <!-- Aqui definimos nuestro server y el path que se va a utilizar para consumir la api rest-->
+    <string name="path">/api/v1/web/SL2335478_dev/TestAndroid/TestAndroid.json?mensaje=</string>
+    <string name="server_remote" >https://us-south.functions.appdomain.cloud</string>
+
 </resources>
